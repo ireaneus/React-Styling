@@ -19,13 +19,13 @@ const customStyle = {
 
 if (currentTime < 12) {
   greeting = "Good Morning";
-  customStyle.color = "red";
+  customStyle.color = "darkgreen";
 } else if (currentTime < 18) {
   greeting = "Good Afternoon";
-  customStyle.color = "green";
+  customStyle.color = "teal";
 } else {
   greeting = "Good Evening";
-  customStyle.color = "blue";
+  customStyle.color = "slategray";
 }
 
 ReactDOM.render(
